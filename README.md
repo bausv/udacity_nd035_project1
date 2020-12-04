@@ -1,5 +1,5 @@
 
-![alt text](https://github.com/bausv/udacity_nd035_project1/workflows/Java%20CI%20with%20Maven/badge.svg "")
+![alt text](https://github.com/bausv/udacity_nd035_project1/workflows/Java%20CI%20with%20Maven/badge.svg "") ![coverage](.github/badges/jacoco.svg "Coverage")
 
 # Super*Duper*Drive Cloud Storage
 
