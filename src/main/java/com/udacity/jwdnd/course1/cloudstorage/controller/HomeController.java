@@ -41,6 +41,11 @@ public class HomeController {
         this.credentialService = credentialService;
     }
 
+    @RequestMapping("/")
+    public String getHomepageDefaultPath() {
+        return "redirect:/home";
+    }
+
     @RequestMapping("/home")
     public String getHomePage(Authentication authentication, Model model, @PathVariable(name = "credResponse", required = false) String credResponse, @PathVariable(name = "noteResponse", required = false) String noteResponse, @PathVariable(name = "fileResponse", required = false) String fileResponse) {
         log.debug("getHomePage(" + authentication + ", " + model + ")");
